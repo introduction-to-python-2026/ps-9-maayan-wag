@@ -1,2 +1,2 @@
-path: "parkinsons.joblib
+path: "parkinsons.joblib"
 features: ['PPE', 'spread1']
