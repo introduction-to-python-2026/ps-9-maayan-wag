@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-df = pd.read_csv('parkinson.csv')
+df = pd.read_csv('parkinsons.csv')
 
 features = ['PPE', 'spread1']
 X = df[features]
